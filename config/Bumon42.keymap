@@ -29,10 +29,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp MINUS        &trans      &trans    &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+   &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp EQUAL        &trans      &trans    &trans  &trans     &kp SEMICOLON            &kp SQT
+   &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0        &trans      &trans    &trans  &trans            &trans          &kp SLASH
+   &trans        &trans        &trans        &trans        &trans  &kp UP_ARROW  &kp C_MUTE  &kp DOWN
             >;
         };
 
